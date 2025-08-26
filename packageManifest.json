@@ -15,7 +15,6 @@
       "required": true,
       "oauth": false
     }
-  ],
-  
+  ]
   "documentationLink": "https://github.com/gilderman/HubitatGrafana#readme"
 }
