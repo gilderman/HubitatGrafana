@@ -1,17 +1,3 @@
-/**
- *  Hubitat Heartbeat + Metrics Monitor
- *
- *  Sends heartbeat and hub metrics to Grafana Cloud Loki
- *
- *  Credits:
- *    Hub Information Driver v3
- *    namespace: thebearmay
- *    author: Jean P. May, Jr.
- *
- *  Author: Ilia Gilderman
- *  Date: 2025-08-24
- */
-
 definition(
     name: "Hubitat Heartbeat + Metrics Monitor",
     namespace: "gilderman",
