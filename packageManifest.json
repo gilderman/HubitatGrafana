@@ -1,21 +1,18 @@
 {
   "packageName": "HubitatGrafana",
-  "author": "Ilia GIlderman",
-  "version": "1.0.0",
+  "author": "Ilia Gilderman",
+  "version": "1.0",
   "minimumHEVersion": "2.3.0",
   "dateReleased": "2025-08-25",
-  "releaseNotes": "Initial release",
-
   "apps": [
     {
-      "id": "hubitat-heartbeat-metrics-monitor",
-      "name": "Hubitat Heartbeat Metrics Monitor",
+      "id": "05403ee5-0a27-4167-b8e1-a2585ba7cd71",
+      "name": "Hubitat Heartbeat + Metrics Monitor",
       "namespace": "gilderman",
-      "location": "https://raw.githubusercontent.com/gilderman/HubitatGrafana/main/apps/HubitatHeartbeatMetricsMonitor.groovy",
+      "location": "https://raw.githubusercontent.com/gilderman/HubitatGrafana/refs/heads/main/apps/HubitatHeartbeatMetricsMonitor.groovy",
       "required": true,
-      "oauth": false
+      "oauth": false,
+      "primary": false
     }
-  ],
-  
-  "documentationLink": "https://github.com/gilderman/HubitatGrafana#readme"
+  ]
 }
